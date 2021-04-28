@@ -1,0 +1,21 @@
+.wrap{
+  height:75vh;
+  background-color:white;
+  border-radius:10px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(181,181,181,1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(181,181,181,1);
+  box-shadow: 10px 10px 5px 0px rgba(181,181,181,1);
+}
+.image-wrap{
+  svg{
+    height:400px;
+    max-width:100%;
+  }
+}
+.text-create-an-account{
+  font-family: 'Nunito', sans-serif;
+  color:#000066;
+  font-size:15px;
+  text-decoration:underline;
+  text-align:center;
+}
