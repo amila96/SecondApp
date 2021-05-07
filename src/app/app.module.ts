@@ -7,18 +7,32 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { DashBoardComponent } from './component/dash-board/dash-board.component';
 import { LogInFormComponent } from './component/log-in-form/log-in-form.component';
+import { HeaderComponent } from './component/header/header.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
+import { FooterComponent } from './component/footer/footer.component';
+import { DefaultPageComponent } from './component/dash-board/pages/default-page/default-page.component';
+import { RegisterHotelPageComponent } from './component/dash-board/pages/register-hotel-page/register-hotel-page.component';
+import { CardsComponent } from './component/dash-board/pages/default-page/items/cards/cards.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashBoardComponent,
-    LogInFormComponent
+    LogInFormComponent,
+    HeaderComponent,
+    FooterComponent,
+    DefaultPageComponent,
+    RegisterHotelPageComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    MatToolbarModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
